@@ -1,2 +1,2 @@
-# js-hitesh
+# js-by-hi
 learning javascript
