@@ -23,18 +23,28 @@ const JsUser = {
 // myarray = ["h", "i"]
 // myArray[2] or [0] etc..
 
-console.log(JsUser.email);
-console.log(JsUser["email"]);
-console.log(JsUser["full name"]);
+// console.log(JsUser.email);   //mostly use this method
+// console.log(JsUser["email"]);    //use this if upper donot work
+// console.log(JsUser["full name"]);
 
-console.log(JsUser[mySym]);
+// console.log(JsUser[mySym]);
 // console.log(typeof JsUser.mySym);
 // console.log(typeof JsUser[mySym]);
 
 //object ffreeze
 
 JsUser.email = "Hitman@ggmmail.com"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
 JsUser.email = "Hitman@kkhhyyrr.com"
 
-console.log(JsUser);
+// console.log(JsUser);
+
+JsUser.greeting = function(){
+    console.log("Hello JS User");
+}
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS User, ${this.name}`);    // string interpolation
+}
+
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
