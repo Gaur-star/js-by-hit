@@ -44,4 +44,46 @@ function loginUserMessage(username = "sam"){
 
 // console.log(loginUserMessage('hitman'));
 // console.log(loginUserMessage(''));
-console.log(loginUserMessage());
+
+// console.log(loginUserMessage());
+
+
+// function calculateCartPrice(...num1){           // ... called rest operator alse spread operator diff place dirreft use
+//     return num1
+// }
+function calculateCartPrice(val1, val2, ...num1){           // ... called rest operator alse spread operator diff place dirreft use
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 300, 400));
+
+
+//for objects
+
+const user = {
+    username: "hitman",
+    prices: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+
+//values can also be passed like this
+
+handleObject({
+    user: "sam",
+    price: 399
+})
+
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 800, 500, 600]));
