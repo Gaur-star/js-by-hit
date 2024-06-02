@@ -54,12 +54,58 @@ const users =[
 
 users[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
 
 
+// destructure and api
+// destructure of object
+
+
+const course = {
+    course:"js in hindi",
+    price:"999",
+    courseInstructor:"hitman"
+}
+
+// to all value
+// course.courseInstructor
+
+//another way which mostly used
+// const {courseInstructor} = course
+const {courseInstructor: instructor} = course    //instructor is used for obj destructure
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// const navbar = ({company}) => {          //method/ props used in react for obj destructure
+
+// }
+
+// navbar(company = "hitman")
+
+
+// concept of api's
+
+// {
+//     "name": "hitman",             //keys are also strings
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+//api's in array format
+
+[
+    {},
+    {},
+    {}
+]
+
+
+// use tools for format like json formatter
