@@ -33,18 +33,19 @@ const JsUser = {
 
 //object ffreeze
 
-JsUser.email = "Hitman@ggmmail.com"
+// JsUser.email = "Hitman@ggmmail.com"
 // Object.freeze(JsUser)
-JsUser.email = "Hitman@kkhhyyrr.com"
+// JsUser.email = "Hitman@kkhhyyrr.com"
 
 // console.log(JsUser);
 
 JsUser.greeting = function(){
     console.log("Hello JS User");
 }
+// console.log(JsUser.greeting());
+
 JsUser.greetingTwo = function(){
     console.log(`Hello JS User, ${this.name}`);    // string interpolation
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greetingTwo());
