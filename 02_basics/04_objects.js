@@ -79,6 +79,7 @@ const course = {
 //another way which mostly used
 // const {courseInstructor} = course
 const {courseInstructor: instructor} = course    //instructor is used for obj destructure
+// keeps repeatation less // value destructure
 
 // console.log(courseInstructor);
 console.log(instructor);
