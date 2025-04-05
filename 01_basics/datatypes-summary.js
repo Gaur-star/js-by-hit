@@ -1,3 +1,7 @@
+// 2typr of datatypes
+// 1 - primitive
+// 2 - non-primitive/Reference
+
 // Primitive
 
 // 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
