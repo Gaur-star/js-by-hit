@@ -53,8 +53,8 @@ let myYoutubename = "hitman"
 let anotherName = myYoutubename
 anotherName = "hitman2"
 
-console.log(myYoutubename);
-console.log(anotherName);
+// console.log(myYoutubename);
+// console.log(anotherName);
 
 
 let userOne = {
