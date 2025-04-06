@@ -1,7 +1,7 @@
 const name = "hitman"
 const repoCount = 50
 
-// console.log(name + repoCount + " Value "); //donot use such writings
+// console.log(name + repoCount + " Value "); // donot use such writings
 
 // console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);  //best practice
 
