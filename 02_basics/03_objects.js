@@ -1,9 +1,10 @@
 //  singleton => made from constructor
+// object.create
 
 // object literals
 
-// 1st method to create oj 
-// object.create
+// 1st method to create object
+
 
 // 2nd method
 const mySym = Symbol("key1")
@@ -34,7 +35,7 @@ const JsUser = {
 //object ffreeze
 
 // JsUser.email = "Hitman@ggmmail.com"
-// Object.freeze(JsUser)
+// Object.freeze(JsUser)  // data dont in furthur use
 // JsUser.email = "Hitman@kkhhyyrr.com"
 
 // console.log(JsUser);
