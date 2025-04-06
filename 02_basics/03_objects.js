@@ -1,4 +1,4 @@
-//  singleton
+//  singleton => made from constructor
 
 // object literals
 
