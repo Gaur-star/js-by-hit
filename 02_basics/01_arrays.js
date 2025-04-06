@@ -21,7 +21,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 //console.log(myArr.includes(9));  //if included
 //console.log(myArr.indexOf(9));
 
-// const newArr = myArr.join()
+// const newArr = myArr.join()  //chnage to string
 
 // console.log(myArr)
 // console.log(typeof newArr);
