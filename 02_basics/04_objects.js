@@ -38,15 +38,15 @@ const obj3 = {...obj1, ...obj2}    //mostly used methd called spread opration
 const users =[
     {
         id:1,
-        email:"h@gmail.com"
+        email:"h1@gmail.com"
     },
     {
-        id:1,
-        email:"h@gmail.com"
+        id:2,
+        email:"h2@gmail.com"
     },
     {
-        id:1,
-        email:"h@gmail.com"
+        id:4,
+        email:"h4@gmail.com"
     },
 ]
 
