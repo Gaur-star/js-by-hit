@@ -15,7 +15,7 @@ console.log(otherNumber.toPrecision(3));  //to next /round off value
 
 const hundreds = 1000000
 // console.log(hundreds.toLocaleString()); //us standards
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN'));  // to indian standards
 
 
 // +++++++++++++++++ Maths +++++++++++++++++++++++
