@@ -1,3 +1,5 @@
+// truthy & falsy values
+
 const userEmail = []
 
 if (userEmail) {
