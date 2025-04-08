@@ -46,7 +46,7 @@
 // console.log("executed");
 
 
-//// ex of scope 
+//// example of scope 
 
 // const scope = 200
 
