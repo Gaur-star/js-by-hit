@@ -58,3 +58,5 @@ for (let index = 0; index <= 20; index++) {
    console.log(`Value of i is ${index}`);
     
 }
+
+//break and continue are both similar
