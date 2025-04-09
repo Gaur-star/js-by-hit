@@ -4,7 +4,7 @@
 //     const element = array[index];
     
 //}
-
+//control + D button sellect all similar
 // for (let index = 0; index < 10; index++) {
 //     const element = index;
 //     console.log(element);
