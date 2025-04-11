@@ -21,6 +21,6 @@ for (const key in object) {
 // map.set('FR', "France")
 // map.set('IN', "India")
 
-// for (const key in object) {    //// no o/p becz of no iteration
+// for (const key in object) {    ////// no o/p becz of no iteration
 //    console.log(key);
 // }
