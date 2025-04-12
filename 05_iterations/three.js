@@ -29,7 +29,7 @@ map.set('IN', "India")
 for (const key of map) {
     // console.log(key);
 }
-for (const [key, value] of map) {      ///////[]values inside this is  called destructre of array
+for (const [key, value] of map) {      /////[]values inside this is  called destructre of array
     // console.log(key, ':-', value);
 }
 
