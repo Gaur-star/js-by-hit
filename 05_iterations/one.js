@@ -59,6 +59,6 @@ for (let index = 0; index <= 20; index++) {
     
 }
 
-// break and continue are both similar
+//break and continue are both similar
 // difference one allows
 // another dont allows to go ahead
