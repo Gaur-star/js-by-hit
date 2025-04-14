@@ -7,7 +7,7 @@ const myNums = [1, 2, 3]
 
 // console.log(myTotal);
 
-///////  same as above in the arrow functi
+///////  same as above in the arrow function
 
 // const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 // console.log(myTotal);
