@@ -7,7 +7,7 @@ const myNums = [1, 2, 3]
 
 // console.log(myTotal);
 
-///////same abv in arrw func
+///////  same abv in arrw func
 
 // const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 // console.log(myTotal);
